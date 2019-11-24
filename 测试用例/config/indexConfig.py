@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-def INDEX_INFO(self):
+def INDEX_INFO():
     wd = webdriver.Chrome()
     wd.implicitly_wait(5)
 
@@ -14,3 +14,4 @@ def INDEX_INFO(self):
     wd.find_element_by_tag_name('button').click()
 
     return wd
+
